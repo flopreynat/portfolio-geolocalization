@@ -1,0 +1,121 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#content {
+	width:960px;
+	margin:0 auto;
+}
+
+.imgCaption {
+	bottom:0;
+	left:0;
+	color:#fff;
+	opacity:.6;
+	background:#333;
+	padding:10px;
+	width:940px;
+	text-align:center;
+	font-size:16px;
+	text-transform:uppercase;
+	text-shadow:1px 1px 0 #111;
+	font-weight:bold;
+}
+
+.bubble .close {
+	display:block;
+	text-indent:-9999px;
+	position:absolute;
+	top:-6px;
+	right:-6px;
+	width:16px;
+	height:16px;
+	outline:none;
+	background:url(../img/close.png) no-repeat;
+	cursor:pointer;
+}
+
+
+.map {
+	margin:10px 0;
+	width:960px;
+	height:500px;
+	border:1px solid grey;
+}
+
+.point {
+	display:block;
+	text-indent:-9999px;
+	width:32px;
+	height:44px;
+	outline:none;
+	background:url(../img/marker.png) no-repeat;
+	cursor:pointer;
+}
+
+.bubble {
+	padding:7px 10px;
+	background:#333;
+	color:#fff;
+	width:240px;
+	font-size:11px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	-moz-box-shadow:0 0 20px #999;
+	-webkit-box-shadow:0 0 20px #999;
+}
+
+.bubble p {
+	margin:5px 0;
+}
+
+
+img.floatRightClear { 
+    float: right; 
+    clear: right; 
+    margin: 4px; 
+}
+
+ul.map_buttons,
+ul.map_buttons li {
+	display:block;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+ul.map_buttons li {
+	float:left;
+}
+
+.map_buttons a {
+	display:block;
+	background:#363636;
+	line-height:28px;
+	padding:0 15px;
+	font-size:12px;
+	float:left;
+	margin-right:4px;
+	text-decoration:none;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+}
+
+a {
+	font-family: georgia, times, serif;
+	color: #000; 
+	font-size:12px;
+	text-decoration:none;
+}
+#sign {
+	float:left;
+}
+#links	{
+	padding-left: 20px;
+	float:left;
+}
+.bubble a	{
+	color: #CC3300;
+}
